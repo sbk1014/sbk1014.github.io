@@ -3,8 +3,8 @@ title: Sean's Blog
 description: A personal blog powered by Jekyll and GitHub Pages
 author: Sean
 email: kimbh.mail@gmail.com
-baseurl: "/sean-blog" # the subpath of your site, e.g. /blog
-url: "" # your GitHub Pages URL will go here
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://sean424.github.io" # your GitHub Pages URL
 
 # Build settings
 theme: minima
