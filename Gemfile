@@ -1,12 +1,14 @@
 source "https://rubygems.org"
 
 # Use GitHub Pages gem for compatibility
-gem "github-pages", group: :jekyll_plugins
+gem "github-pages", "~> 232", group: :jekyll_plugins
+
+# Minima theme
+gem "minima", "~> 2.5"
 
 # Required plugins
 group :jekyll_plugins do
-  gem "jekyll-feed"
-  gem "jekyll-seo-tag"
+  gem "jekyll-feed", "~> 0.12"
 end
 
 # Windows and JRuby compatibility
