@@ -5,29 +5,31 @@ layout: "single"
 
 # About Me
 
-I'm Sean Kim, a passionate researcher and developer working at the intersection of machine learning and computational biology. My academic journey has led me to explore how computational methods can unlock new insights in biological systems.
+I'm Sean Kim, a Postdoctoral Researcher at the University of Texas at Austin, working in Professor Salvatore Salamone's research group. My academic journey has led me to explore how machine learning and advanced signal processing techniques can revolutionize structural health monitoring and infrastructure maintenance.
 
 ## Education & Background
 
-I have a strong foundation in both computer science and biological sciences, which allows me to bridge the gap between these two fields effectively. My interdisciplinary approach enables me to tackle complex problems that require both computational expertise and biological understanding.
+I have a strong foundation in engineering, computer science, and data analytics, which allows me to bridge the gap between traditional structural engineering and modern AI-driven approaches. My interdisciplinary background enables me to tackle complex problems in infrastructure monitoring that require both engineering expertise and computational skills.
 
 ## Research Philosophy
 
-I believe in the power of open science and collaborative research. My work focuses on developing accessible tools and methods that can be used by the broader scientific community to advance our understanding of biological systems.
+I believe in developing practical, deployable solutions that can make our infrastructure safer and more resilient. My work focuses on creating accessible tools and methods that can be implemented in real-world structural monitoring systems to prevent failures and optimize maintenance strategies.
 
 ## Current Focus
 
 My current research involves:
-- Developing machine learning models for biological sequence analysis
-- Creating computational tools for genomic data interpretation
-- Exploring applications of deep learning in proteomics
-- Building scalable solutions for bioinformatics challenges
+- Developing deep learning models for damage detection and localization
+- Creating algorithms for real-time structural health assessment
+- Exploring applications of computer vision in infrastructure monitoring
+- Building predictive maintenance systems using sensor fusion techniques
+- Advancing non-destructive testing methods with AI
 
 ## Skills & Expertise
 
-- **Programming**: Python, R, C++, Java
-- **Machine Learning**: Deep Learning, Neural Networks, Statistical Modeling
-- **Bioinformatics**: Sequence Analysis, Structural Biology, Genomics
+- **Programming**: Python, MATLAB, C++, Java
+- **Machine Learning**: Deep Learning, Neural Networks, Anomaly Detection, Time Series Analysis
+- **Signal Processing**: Wavelet Analysis, FFT, Digital Filtering, Sensor Fusion
+- **Structural Analysis**: Finite Element Methods, Modal Analysis, Vibration Analysis
 - **Data Science**: Big Data Analysis, Visualization, Statistical Computing
 
 ## Academic Profile
@@ -36,4 +38,4 @@ You can find my publications and citations on my [Google Scholar profile](https:
 
 ## Beyond Research
 
-When I'm not working on research, I enjoy contributing to open-source projects, mentoring students, and staying up-to-date with the latest developments in both technology and biology.
+When I'm not working on research, I enjoy contributing to open-source projects, mentoring students, and staying up-to-date with the latest developments in smart cities, IoT technologies, and sustainable infrastructure.

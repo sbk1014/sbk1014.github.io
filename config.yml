@@ -26,7 +26,7 @@ menu:
           weight: 4
 
 params:
-    description: "Sean Kim - Researcher in Machine Learning and Computational Biology"
+    description: "Sean Kim - Postdoctoral Researcher in Structural Health Monitoring at UT Austin"
     author: Sean Kim
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
@@ -52,7 +52,7 @@ params:
     profileMode:
           enabled: true
           title: Sean Kim
-          subtitle: "Researcher in Machine Learning and Computational Biology. I develop innovative computational methods to understand complex biological systems through advanced machine learning techniques."
+          subtitle: "Postdoctoral Researcher at UT Austin | Structural Health Monitoring | Machine Learning for Infrastructure Safety. Working with Prof. Salvatore Salamone to develop AI-powered systems for real-time damage detection in civil infrastructure."
           imageUrl: "profile.jpg"
           imageWidth: 160
           imageHeight: 160

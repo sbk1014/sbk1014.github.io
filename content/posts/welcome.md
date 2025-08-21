@@ -5,15 +5,17 @@ draft: false
 tags: ["introduction", "blog"]
 ---
 
-Welcome to my new blog! I'm excited to share my thoughts on technology, programming, and software development.
+Welcome to my blog! I'm excited to share my research and insights on structural health monitoring, machine learning applications in civil engineering, and the future of smart infrastructure.
 
 ## What to Expect
 
 I'll be writing about:
-- Web development and modern frameworks
-- Programming best practices
-- Personal projects and experiments
-- Technology trends and insights
+- Latest advances in structural health monitoring
+- Machine learning techniques for damage detection
+- Real-world case studies from our research projects
+- Signal processing and sensor fusion methods
+- Infrastructure resilience and predictive maintenance
+- Open-source tools and datasets for the SHM community
 
 ## About This Site
 

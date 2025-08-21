@@ -5,7 +5,7 @@ layout: "single"
 
 # Get in Touch
 
-I'm always interested in collaborating on exciting research projects and connecting with fellow researchers in computational biology and machine learning.
+I'm always interested in collaborating on exciting research projects and connecting with fellow researchers in structural health monitoring, civil engineering, and applied machine learning.
 
 ## Email
 
@@ -25,10 +25,12 @@ Feel free to reach out for:
 ## Collaboration
 
 I'm particularly interested in:
-- Interdisciplinary research projects
-- Open-source scientific software development
-- Applications of ML in biological sciences
-- Data science for social good
+- Infrastructure monitoring and smart cities projects
+- Industry partnerships for real-world deployments
+- Open-source tools for structural health monitoring
+- Applications of AI/ML in civil engineering
+- Sensor network optimization
+- Predictive maintenance systems
 
 ## Response Time
 

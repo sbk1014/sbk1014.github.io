@@ -4,17 +4,18 @@ title: "Home"
 
 # Welcome
 
-I'm Sean Kim, a researcher working at the intersection of machine learning and computational biology. My work focuses on developing innovative approaches to understand complex biological systems through advanced computational methods.
+I'm Sean Kim, a Postdoctoral Researcher at the University of Texas at Austin, working under the supervision of Professor Salvatore Salamone. My research focuses on structural health monitoring, developing innovative machine learning approaches to detect and predict damage in civil infrastructure and mechanical systems.
 
 ## Research Interests
 
-- **Machine Learning & AI**: Developing novel algorithms for biological data analysis
-- **Computational Biology**: Applying computational methods to solve biological problems
-- **Data Science**: Large-scale data analysis and visualization
+- **Structural Health Monitoring**: Real-time damage detection and assessment in infrastructure
+- **Machine Learning & AI**: Developing algorithms for anomaly detection and predictive maintenance
+- **Signal Processing**: Analysis of sensor data from structural monitoring systems
+- **Data Science**: Large-scale sensor data analysis and visualization
 
 ## Recent Work
 
-I'm currently working on several exciting projects involving deep learning applications in genomics and proteomics. My research aims to bridge the gap between computational methods and biological insights.
+I'm currently working on several exciting projects involving deep learning applications for structural damage detection, predictive maintenance algorithms, and developing novel sensor fusion techniques for infrastructure monitoring.
 
 ## Publications
 
