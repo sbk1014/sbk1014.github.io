@@ -1,6 +1,8 @@
 ---
-title: "About"
+title: ""
 layout: "single"
+hideMeta: true
+hideTitle: true
 ---
 
 # About Me

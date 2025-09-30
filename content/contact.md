@@ -1,6 +1,8 @@
 ---
-title: "Contact"
+title: ""
 layout: "single"
+hideMeta: true
+hideTitle: true
 ---
 
 # Get in Touch
