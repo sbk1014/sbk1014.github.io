@@ -1,5 +1,5 @@
-baseURL: "https://sbk1014.github.io/" 
-title: Sean Kim
+baseURL: "https://sbk1014.github.io/"
+title: Sean Byunghyun Kim
 theme: PaperMod
 
 enableInlineShortcodes: true
@@ -26,8 +26,8 @@ menu:
           weight: 4
 
 params:
-    description: "Sean Kim - Postdoctoral Researcher in Structural Health Monitoring at UT Austin"
-    author: Sean Kim
+    description: "Sean Byunghyun Kim - Postdoctoral Researcher in Structural Health Monitoring at UT Austin"
+    author: Sean Byunghyun Kim
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
     defaultTheme: light
@@ -51,7 +51,7 @@ params:
     math: true
     profileMode:
           enabled: true
-          title: Sean Kim
+          title: Sean Byunghyun Kim
           subtitle: "Postdoctoral Researcher at UT Austin | Structural Health Monitoring | Machine Learning for Infrastructure Safety. Working with Prof. Salvatore Salamone to develop AI-powered systems for real-time damage detection in civil infrastructure."
           imageUrl: "profile.jpg"
           imageWidth: 160
