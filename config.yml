@@ -1,4 +1,4 @@
-baseURL: "https://sean424.github.io/" 
+baseURL: "https://sbk1014.github.io/" 
 title: Sean Kim
 theme: PaperMod
 
@@ -74,7 +74,7 @@ params:
         - name: Google Scholar
           url: https://scholar.google.com/citations?hl=en&user=QsD73G4AAAAJ
         - name: GitHub
-          url: https://github.com/sean424
+          url: https://github.com/sbk1014
 
     assets:
         disableScrollBarStyle: true
