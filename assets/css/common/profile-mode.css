@@ -28,6 +28,17 @@
     text-align: justify;
     display: block;
     width: 100%;
+    max-width: 530px;
+    line-height: 1.8;
+}
+
+.profile .profile_inner > span a {
+    color: var(--darkcolor);
+    text-decoration: none;
+}
+
+.profile .profile_inner > span a:hover {
+    color: var(--btn-hover);
 }
 
 .profile img {
