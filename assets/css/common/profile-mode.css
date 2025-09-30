@@ -1,7 +1,7 @@
 .buttons,
 .main .profile {
     display: flex;
-    justify-content: left;
+    justify-content: center;
 }
 .main .profile {
     align-items: center;
@@ -14,17 +14,28 @@
 .profile .profile_inner {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     gap: 10px;
+    width: 100%;
+    max-width: 600px;
 }
 
 .profile .profile_inner h1 {
     font-size: 2.5rem;
 }
 
+.profile .profile_inner > span {
+    text-align: justify;
+    display: block;
+    width: 100%;
+}
+
 .profile img {
     border-radius: 50%;
     border: 1px solid var(--tertiary);
+    width: 100%;
+    max-width: 300px;
+    height: auto;
 }
 
 .buttons {

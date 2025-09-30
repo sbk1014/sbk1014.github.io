@@ -1,51 +1,160 @@
+/* ===============================
+   UT-Inspired (Soft Copper)
+   =============================== */
+
+/* Light mode */
 :root {
-    --gap: 24px;
-    --content-gap: 20px;
-    --nav-width: 1024px;
-    --main-width: 720px;
-    --header-height: 44px;
-    --footer-height: 70px;
-    --radius: 8px;
-    --theme: rgb(255, 255, 255);
-    --entry: rgb(255, 255, 255);
-    --primary: rgb(30, 30, 30);
-    --secondary: rgb(108, 108, 108);
-    --tertiary: rgb(214, 214, 214);
-    --gray: rgb(165, 165, 165);
-    --content: rgb(30, 30, 30);
-    --code-block-bg: rgb(28, 29, 33);
-    --code-bg: rgb(245, 245, 245);
-    --border: rgb(238, 238, 238);
-    --darkcolor: #6a7ba2;
-    --lightcolor: #cbd1de;
-    --semibold: 500;
-    --homesize: 16px;
-    --textsize: 18px;
-    --h1size: 25px;
-    --entrysize: 15px;
-    --headersize: 16px;
-    --footersize: 13px;
-    --lineheight: 1.45;
-    --lineclamp: 8;
-    --marginleft: 26px;
+  /* Brand-ish helpers */
+  --ut-charcoal: #333F48;   /* primary text */
+  --ut-cream:    #F6F2E8;   /* page background */
+  --ut-stone:    #E9E3D3;   /* borders/cards */
+
+  /* Layout / type (yours, kept) */
+  --gap: 24px; --content-gap: 20px; --nav-width: 1024px; --main-width: 720px;
+  --header-height: 44px; --footer-height: 70px; --radius: 8px; --semibold: 500;
+  --homesize: 16px; --textsize: 18px; --h1size: 25px; --entrysize: 15px;
+  --headersize: 16px; --footersize: 13px; --lineheight: 1.45; --lineclamp: 8;
+  --marginleft: 26px;
+
+  /* Core tokens */
+  --theme: var(--ut-cream);
+  --entry: #FFFFFF;
+  --primary: var(--ut-charcoal);
+  --secondary: #5B6166;
+  --tertiary: #D4CEC3;
+  --gray: #8A8F93;
+  --content: var(--ut-charcoal);
+  --code-block-bg: #1E1F22;
+  --code-bg: #FBF7EE;   /* softer than pure white; warm tint */
+  --border: var(--ut-stone);
+
+  /* Accents (toned down) */
+  --accent: #B25A20;    /* muted Longhorn for links/icons */
+  --darkcolor: var(--accent);
+  --lightcolor: #E9C7AA;
+
+  /* Buttons — light copper bg + dark text (AA contrast) */
+  --btn-bg:   #E09B62;  /* Copper Light */
+  --btn-text: #1A1A1A;  /* dark text for readability */
+  --btn-hover:#D6894A;  /* slightly deeper on hover */
+  --btn-ring: 0 0 0 3px rgba(224,155,98,.35);
 }
 
+/* Dark mode */
 .dark {
-    --theme: rgb(29, 30, 32);
-    --entry: rgb(46, 46, 51);
-    --primary: rgb(218, 218, 219);
-    --secondary: rgb(155, 156, 157);
-    --tertiary: rgb(65, 66, 68);
-    --content: rgb(196, 196, 197);
-    --code-block-bg: rgb(46, 46, 51);
-    --code-bg: rgb(55, 56, 62);
-    --border: rgb(51, 51, 51);
+  --theme: #141517;
+  --entry: #1F2124;
+  --primary: #ECEDEE;
+  --secondary: #B6BBC2;
+  --tertiary: #2B2E33;
+  --content: #E5E7EB;
+  --code-block-bg: #101214;
+  --code-bg: #1C1F23;
+  --border: #3A3D42;
+
+  /* Softer warm accents for dark */
+  --accent: #E7A874;   /* gentle link color */
+  --darkcolor: var(--accent);
+  --lightcolor: #FFDDBA;
+
+  /* Buttons — bright enough, still soft */
+  --btn-bg:   #FFB97A;
+  --btn-text: #1A1A1A;
+  --btn-hover:#FF9D5E;
+  --btn-ring: 0 0 0 3px rgba(255,185,122,.35);
 }
 
-.list {
-    background: var(--code-bg);
+/* List-page background behavior (from your original) */
+.list { background: var(--code-bg); }
+.dark.list { background: var(--theme); }
+
+/* ===== Wiring common UI ===== */
+
+/* Links use the soft accent */
+a { color: var(--darkcolor); }
+a:hover { color: var(--btn-hover); }
+
+/* Buttons (cover typical Hugo themes) */
+button,
+.button,
+.btn,
+.btn-primary,
+a.button,
+a.btn,
+a[role="button"],
+input[type="submit"],
+input[type="button"],
+input[type="reset"]{
+  background: var(--btn-bg) !important;
+  border-color: var(--btn-bg) !important;
+  color: var(--btn-text) !important;
+  border-radius: var(--radius);
+  transition: background .15s ease, border-color .15s ease, color .15s ease, transform .05s ease;
 }
 
-.dark.list {
-    background: var(--theme);
+button:hover,
+.button:hover,
+.btn:hover,
+.btn-primary:hover,
+a.button:hover,
+a.btn:hover,
+a[role="button"]:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover{
+  background: var(--btn-hover) !important;
+  border-color: var(--btn-hover) !important;
+  color: var(--btn-text) !important;
+}
+
+button:active,
+.button:active,
+.btn:active,
+a.button:active,
+a.btn:active{
+  transform: translateY(1px);
+}
+
+button:focus-visible,
+.button:focus-visible,
+.btn:focus-visible,
+a.button:focus-visible,
+a.btn:focus-visible,
+a[role="button"]:focus-visible{
+  outline: none;
+  box-shadow: var(--btn-ring);
+}
+
+/* Outline/ghost buttons */
+.button-outline,
+.btn-outline,
+.button--outline{
+  background: transparent !important;
+  color: var(--accent) !important;
+  border-color: var(--accent) !important;
+}
+.button-outline:hover,
+.btn-outline:hover,
+.button--outline:hover{
+  background: var(--btn-bg) !important;
+  color: var(--btn-text) !important;
+}
+
+/* Cards / entries */
+article, .card, .post, .entry {
+  background: var(--entry);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+/* Code blocks */
+pre, code, kbd, samp {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+pre {
+  background: var(--code-block-bg);
+  color: #EDEFF2;
+  padding: 1rem;
+  border-radius: var(--radius);
+  overflow: auto;
 }
