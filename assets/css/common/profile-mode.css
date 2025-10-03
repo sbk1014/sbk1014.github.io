@@ -32,6 +32,11 @@
     line-height: 1.8;
 }
 
+.profile .profile_inner > span .subtitle-left {
+    display: block;
+    text-align: left;
+}
+
 .profile .profile_inner > span a {
     color: var(--darkcolor);
     text-decoration: none;
