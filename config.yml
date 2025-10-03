@@ -52,7 +52,7 @@ params:
     profileMode:
           enabled: true
           title: Sean Byunghyun Kim
-          subtitle: '🎓 Postdoctoral Fellow at Univ. of Texas Austin <br> 🌉 Structural Health Monitoring <br> 🤖 Machine Learning for Infrastructure Safety <br> <span class="subtitle-left">👨🏻‍🏫 Working with [Prof. Salvatore Salamone](https://sites.google.com/view/ssrg/) to develop AI-powered systems  for real-time damage detection in civil infrastructure.</span>'
+          subtitle: '🎓 Postdoctoral Fellow at University of Texas Austin <br> 🌉 Structural Health Monitoring <br> 🤖 Machine Learning for Infrastructure Safety <br> <span class="subtitle-left">👨🏻‍🏫 Working with [Prof. Salvatore Salamone](https://sites.google.com/view/ssrg/) to develop AI-powered systems  for real-time damage detection in civil infrastructure.</span>'
           imageUrl: "profile.jpeg"
           imageWidth: 300
           imageHeight: 300
